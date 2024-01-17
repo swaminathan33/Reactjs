@@ -1,0 +1,148 @@
+* {
+    font-family: 'Salsa';
+    margin: 0;
+}
+
+button{
+    background-color: rgb(156, 236, 156);
+    color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button:hover{
+    border: 1px solid green;
+}
+/* navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 300px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+nav .links{
+    display: flex;
+    gap: 200px;
+}
+
+nav .links a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* search form */
+
+.searchform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.searchform .title{
+    font-size: 25px;
+}
+
+.searchform input{
+    width: 350px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+/* Cocktail list */
+
+.cocktaillist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 0px 100px 0px 250px;
+}
+
+/* cocktail */
+
+.cocktail{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.cocktail .image img{
+    width: 250px;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cocktail .text{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* singleCocktail */
+
+.singlecocktail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.singlecocktail .image img{
+    margin-top: 40px;
+    width: 400px;
+    height: 350px;
+} 
+
+.singlecocktail .text{
+    width: 400px;
+}
+
+.singlecocktail .text span{
+    background-color: rgb(136, 217, 136);
+    color: green;
+    border-radius: 5px ;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.singlecocktail .text div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* about */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.about p{
+    width: 500px;
+    text-align: center;
+}
+
+/* loading */
+
+.loading{
+    text-align: center;
+font-size: 35px;
+margin-top: 100px;
+}
