@@ -1,0 +1,102 @@
+/* modal */
+
+*{
+  margin: 0;
+}
+
+.modal-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.modal-button button{
+  background-color: black;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+}
+
+.modal-button button:hover{
+  background-color: white;
+  color: black;
+}
+
+.toggle-menu{
+  font-size: 30px;
+}
+
+/* modal */
+
+.modal{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hide-modal{
+  display: none;
+}
+
+.modal-box{
+  width: 500px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.modal-box{
+  position: relative;
+}
+
+.modal-times{
+  font-size: 30px;
+  position: absolute;
+  top: 230px;
+  right: 530px;
+  z-index: 1;
+}
+
+
+/* side bar */
+
+.side-bar{
+  position: fixed;
+  top: 0;
+  bottom: 0;  
+  display: flex;
+  width: 100%;
+  background-color: white;
+  flex-direction: column;
+}
+
+.side-bar .top{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  width: 100%;
+}
+
+.sidebar-times{
+  font-size: 30px;
+}
+
+.list-items ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.show-sidebar{
+  display: none;
+}

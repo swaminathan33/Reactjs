@@ -1,0 +1,43 @@
+.w-10{
+    width: 100px;
+}
+
+/* navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+/* sidebar */
+
+.sidebar{
+    display: none;
+    position: fixed;
+    top: 62px;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.show-sidebar{
+    display: block;
+}
+
+.close-btn{
+    text-align: right;
+    padding: 20px;
+    font-size: 20px;
+}

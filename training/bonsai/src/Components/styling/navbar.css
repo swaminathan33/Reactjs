@@ -1,0 +1,54 @@
+*{
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.middle ul{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.login button{
+    background-color: transparent;
+    border: none;
+    color: rgb(0,178,136);
+}
+
+.login:hover{
+    background-color:  rgb(0,178,136);
+}
+
+.login:hover button{
+    color: white;
+}
+
+.login{
+    border: 1px solid rgb(0,178,136);
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0px 17px 0px 17px;
+}
+
+.logo{
+    color: rgb(0,178,136);
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+nav{
+    margin: 0px 100px 0px 100px;
+}

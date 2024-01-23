@@ -1,0 +1,75 @@
+/* start free button */
+
+.start{
+    outline: none;
+    background-color: rgb(0,178,136);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.start:hover{
+    background-color: rgb(2, 124, 95);
+}
+/* pricing box */
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 30px;
+}
+
+.box .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box .price{
+    font-size: 25px;
+}
+
+.box .line{
+    border: 1px solid rgb(0,178,136);
+    margin: 25px 0px 25px 0px;
+}
+
+.box ul li{
+    text-align: left;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 300px;
+}
+
+.box ul{
+    margin-bottom: 40px;
+
+}
+
+/* add ons */
+
+.addons-box{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 20px 3px 20px;
+    margin-bottom: 20px;
+    width: 100vh;
+    height: 15vh;
+    border-radius: 10px;
+}
+
+.addons-box .title {
+    color: rgb(37, 42, 52);
+    font-size: 22px;
+}                                                                                                 
+
+.addons-box span{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(70,81,104);
+}
+
+.addons-box .title-desc{
+    color: rgb(70,81,104);
+}

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 40px 0px 40px;
+}
+
+nav .logo{
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+
+.line{
+    border: 1.5px solid white;
+    margin: 0px 10px 0px 10px;
+}
+
+.boxes .request{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.boxes .signin{
+    background-color: rgb(69,96,209);
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    margin-left: 20px;
+}
+
+.boxes .signin:hover{
+    background-color: white;
+    color: black;
+}
+
+.boxes .request:hover{
+    background-color: white;
+    color: black;
+}
+
+.top-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218,219,241);
+    padding: 100px;
+}
+
+.top-row h1{
+    font-size: 70px;
+}
+
+.search-box input{
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.search-box {
+    width: 600px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.middle-content ul{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px 200px 200px;
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+}
+
+footer p{
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 20px 0px 20px 0px;
+}
+
+footer ul li{
+    margin-top: 10px;
+}
+
+.copyrights{
+    display: flex;
+    align-items: end;
+}
+
+.copyrights div{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+footer .contact{
+    margin-top: 60px;
+}
+
+.middle-content li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.middle-content li div{
+    width: 300px;
+    text-align: start;
+    font-size: 18px;
+}
+
+.middle-content li p{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.middle-content{
+    margin: 100px 0px 100px 0px;
+}

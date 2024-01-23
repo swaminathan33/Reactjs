@@ -1,0 +1,123 @@
+.plans-title h1{
+    font-weight: lighter;
+}
+
+.plans-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.container{
+    margin: 0px 150px 0px 150px;
+}
+
+.middle-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.addons-title{
+    font-size: 25px;
+    text-align: center;
+    margin: 100px 0px 40px 0px;
+}
+
+.addons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blue-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px 70px 0px;
+}
+
+.blue-box #blue-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 105vh;
+    border-radius: 5px;
+    background-color: rgb(242,250,254);
+    padding: 50px 30px 50px 30px;
+}
+
+.blue-box .text{
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    color: rgb(70,81,104);
+}
+
+/* faq */
+
+.faqs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.faqs .faq-title{
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(0,178,136);
+    font-weight: bold;
+}
+
+.faqs .faq{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88vh;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(58, 56, 56);
+    font-weight: bold;
+}
+
+.faqs .faq div:hover{
+    color: rgb(8,178,137);
+}
+
+.faqs .faq button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 140px;
+    text-align: start;
+    font-size: 17px;
+}
+
+footer div .title{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+footer div ul li{
+    margin-top: 10px;
+}
+
+.copyrights{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    margin-top: 100px;
+}
