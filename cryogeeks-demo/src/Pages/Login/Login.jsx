@@ -28,7 +28,7 @@ const Login = () => {
                 {boxTick ? <TiTick style={{fontSize:'25px'}} onClick={() => setBoxTick(!boxTick)} /> : <MdOutlineCheckBoxOutlineBlank style={{fontSize:'23px'}} onClick={() => setBoxTick(!boxTick)}/>}
                  <span>Remember Me</span>
                  </p>
-              <a href="">Forget Pass</a>
+              <a href="">Forget Password?</a>
             </div>
             <div className="button">
             <button type="submit">Sign In</button>
