@@ -104,5 +104,21 @@
     .login .login-wrapper .login-box .input{
         width: 35vh;
     }
+    .login .login-wrapper .login-box .final{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .login .login-wrapper .login-box .signup{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .login .login-wrapper .login-box h3{
+        font-size: 20px;
+    }
+
 }
 
