@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login .login-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.login .login-wrapper .login-box{
+    color: rgb(62, 61, 61);
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    gap: 10px;
+}
+
+.login .login-wrapper .login-box input{
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(182, 179, 179);
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    padding-left: 10px;
+    color: rgb(62, 61, 61);
+    font-size: 15px;
+}
+
+.login .login-wrapper .login-box .input{
+    width: 60vh;
+    height: 30px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.login .login-wrapper h3{
+    color: #6993ff;
+    font-size: 30px;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login .login-wrapper .login-box .final{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 15px 0px;
+}
+
+.login .login-wrapper .login-box .button button{
+    background-color: #f64e60;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px 13px 10px 13px;
+    border-radius: 5px; 
+    cursor: pointer;
+} 
+
+.login .login-wrapper .login-box .button{
+    text-align: center;
+}
+
+.login .login-wrapper .login-box .signup{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.login .login-wrapper .login-box a{
+    text-decoration: none;
+}
+
+.login .login-wrapper .login-box a:hover{
+    text-decoration: underline;
+}
+
+.login .login-wrapper .login-box .final p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 20px;
+}
