@@ -88,3 +88,21 @@
     gap: 5px;
     height: 20px;
 }
+
+@media only screen and (max-width:600px) {
+    body{
+    background-color: rgba(0, 0, 0, 0.3);
+    }
+    .login .login-wrapper{
+        background-color: transparent;
+    }
+
+    .login .login-wrapper .login-box{
+        max-width: 40vh;
+    }
+
+    .login .login-wrapper .login-box .input{
+        width: 35vh;
+    }
+}
+
