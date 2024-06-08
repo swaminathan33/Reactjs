@@ -1,27 +1,40 @@
-import React, { useState } from 'react'
-import '@fontsource/roboto/300.css';
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/500.css';
-import '@fontsource/roboto/700.css';
-import {TextField} from '@mui/material'
+import React, { useEffect, useState } from "react";
+import './App.css'
+import Card from "./Card";
 
 const App = () => {
-  const [movieName, setMovieName] = useState('')
-
-  const handleSubmit = async () =>{
+  const [movieName, setMovieName] = useState("");
+  const [data, setData] = useState([])
+  const [loading, setLoading] = useState(false)
+  const handleSubmit = async () => {
+    setLoading(true)
     await fetch(`https://www.omdbapi.com/?apikey=f1af5951&s=${movieName}`)
-    .then((response) => response.json())
-    .then((data) => console.log(data))
-    .catch((err) => console.log(err))
-  }
+      .then((response) => response.json())
+      .then((data) => setData(data.Search))
+      .catch((err) => console.log(err));
+      setLoading(false)
+  };
+
 
   return (
     <div>
-      <TextField id="outlined-basic" label="Outlined" variant="outlined" sx={{width:'30vh', height:'4px', fontSize:'10px'}} />
-      <input type="text" onChange={(e) => setMovieName(e.target.value)} />
-      <button type='submit' onClick={handleSubmit}>Search</button>
-    </div>
-  )
-}
+     
+      <div className="button">
+      <input type="text" onChange={(e) => setMovieName(e.target.value)} placeholder="search..."/>
+      <button onClick={handleSubmit}>Search</button>
+      </div>
+      {
+        loading ? <h3>Loading...</h3> : <div className="images">
+        {
+          data.length == 0 ? <h3>No results found</h3> : data.map((i) => {
+            return <Card data={i} />
 
-export default App
+          })
+        }
+      </div>
+      }
+    </div>
+  );
+};
+
+export default App;

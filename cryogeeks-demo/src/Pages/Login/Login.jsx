@@ -4,9 +4,14 @@ import { MdPersonOutline } from "react-icons/md";
 import { CiLock } from "react-icons/ci";
 import { MdOutlineCheckBoxOutlineBlank } from "react-icons/md";
 import { TiTick } from "react-icons/ti";
-
+import {useNavigate} from 'react-router-dom'
 const Login = () => {
-  const handleSubmit = () => {};
+  const navigate = useNavigate()
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigate('/')
+  };
   const [boxTick, setBoxTick] = useState(false);
   return (
     <div className="login">
